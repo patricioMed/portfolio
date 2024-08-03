@@ -1268,6 +1268,68 @@ animation-range: cover;
     .mainContainer1{
       background-color: orangered;
     }
+
+       @media (max-width: 720px) {
+ 
+.outerMain1{
+  max-width: 207px;
+}
+.portfolio{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 7px;
+}
+
+.navBar{
+  height: 3vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.home{
+  font-size: 10px;
+}
+.home{
+  width: 20px;
+}
+.navs .class,.home:hover~.Animation{
+}
+
+.about{
+  font-size: 10px;
+}
+.about{
+  width: 65px;
+}
+.navs .class,.about:hover~.Animation{
+}
+
+.skills{
+  font-size: 10px;
+}
+.skills{
+  width: 1px;
+}
+.navs .class,.skills:hover~.Animation{
+}
+
+.contact{
+  font-size: 10px;
+}
+.contact{
+  width: 30px;
+}
+.navs .class,.contact:hover~.Animation{
+}
+
+
+
+
+
+}
 }
 
    
