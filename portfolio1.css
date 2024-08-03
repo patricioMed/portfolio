@@ -1268,9 +1268,6 @@ animation-range: cover;
     .mainContainer1{
       background-color: orangered;
     }
-
-       @media (max-width: 720px) {
- 
 .outerMain1{
   max-width: 207px;
 }
@@ -1330,7 +1327,9 @@ animation-range: cover;
 
 
 }
-}
+   }
+
+   
 
    
 
