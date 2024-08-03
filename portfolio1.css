@@ -1276,6 +1276,15 @@ animation-range: cover;
   font-weight: bold;
   font-size: 7px;
 }
+       .mainContainer1{
+flex-direction: column;
+}
+.rightSide1{
+  order: 1;
+}
+.leftSide1{
+  order: 2;
+}
 
 .navBar{
   height: 3vh;
