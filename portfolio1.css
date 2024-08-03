@@ -1262,11 +1262,11 @@ animation-range: cover;
     border: 3px solid rgb(47, 255, 134);
    }
 
-   @media (max-width: 720px) {
+   @media (max-width: 767px) {
 
     
     .mainContainer1{
-      background-color: green;
+      background-color: orangered;
     }
 }
 
