@@ -1276,8 +1276,7 @@ animation-range: cover;
 }
 .mainContainer1{
 flex-direction: column;
-
-    display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -1286,27 +1285,43 @@ align-items: center;
   order: 1;
 /*   max-width: 100%;
   min-height: 100px; */
-
     max-height: 200px;
     max-width: 200px;
-    
-/*   background-color: red; */
 }
 .image{
   margin: 0;
      max-width: 100%;
   max-height: 210px;
 }
-
-      img{
-   max-width: 100%;
-   max-height: 100%;
+.image::before{
+  content: ''; 
+  position: absolute;
+  width: 120px;
+  height: 140%;
+  background: linear-gradient(rgb(47, 255, 134),white);
+  box-shadow: 0 0 250px rgb(47, 255, 134);
+  animation: glow 2s infinite alternate;
+  /* box-shadow: 0 0 20px red; */
+  animation: rotate 5s linear infinite;
+}
+.image::after{
+  content: '';
+  position: absolute;
+  inset: 10px;
+  background-color: black;
+  background-image: url("./IMG/myProfile1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  object-fit: cover;
+  border-radius: 10px;
 }
       
 .leftSide1{
   order: 2;
   max-width: 100%;
-  margin-top: 1.5em;
+  margin-top: 1em;
   /* background-color: blue; */
 }
 .innerTextleft{
