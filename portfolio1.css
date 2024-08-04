@@ -1282,7 +1282,7 @@ flex-direction: column;
   order: 1;
   max-width: 100%;
   min-height: 100px;
-  /* background-color: red; */
+  background-color: red;
 }
 .image{
   margin: 0;
