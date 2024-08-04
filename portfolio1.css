@@ -1265,7 +1265,7 @@ animation-range: cover;
 /*    @media (max-width: 767px) { */
 
        
-  @media (max-width: 720px) {
+  @media (max-width: 767px) {
 .outerMain1{
   max-width: 100%;
 }
