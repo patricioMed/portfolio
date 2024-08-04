@@ -1290,7 +1290,7 @@ align-items: center;
     max-height: 200px;
     max-width: 200px;
     
-  background-color: red;
+/*   background-color: red; */
 }
 .image{
   margin: 0;
@@ -1306,6 +1306,7 @@ align-items: center;
 .leftSide1{
   order: 2;
   max-width: 100%;
+  margin-top: 1.5em;
   /* background-color: blue; */
 }
 .innerTextleft{
