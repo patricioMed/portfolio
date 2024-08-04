@@ -1261,33 +1261,114 @@ animation-range: cover;
     color: white;
     border: 3px solid rgb(47, 255, 134);
    }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*    @media (max-width: 767px) { */
 
-   @media (max-width: 767px) {
-
-    
-    .mainContainer1{
-      background-color: black;
-    }
+       
+  @media (max-width: 720px) {
 .outerMain1{
-  max-width: 207px;
+  max-width: 100%;
 }
 .portfolio{
   margin-left: 10px;
   font-weight: bold;
   font-size: 7px;
 }
-       .mainContainer1{
+.mainContainer1{
 flex-direction: column;
 }
 .rightSide1{
+  margin: 10px;
   order: 1;
+  max-width: 100%;
+  min-height: 100px;
+  /* background-color: red; */
+}
+.image{
+  margin: 0;
 }
 .leftSide1{
   order: 2;
+  max-width: 100%;
+  /* background-color: blue; */
+}
+.innerTextleft{
+  /* background-color: orangered; */
 }
 
+#language{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  left:1px;
+/* background-color: red; */
+max-width: 100%;
+ }
+ /* .app1{
+  display: inline-block;
+
+  height: 55px;
+  width: 54px;
+  background-color:rgb(39, 39, 39);
+background-color: black;
+  font-size: 50px;
+ border-radius: 10px;
+ border: 3px solid rgb(39, 39, 39);
+border: 3px solid rgb(47, 255, 134) ;
+ cursor: default;
+} */
+ #text1{
+  margin: 0px;
+  padding: 0px;
+  font-size:50px;
+  /* border: 2px solid gold; */
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  max-width: 100%;
+  text-align: center;
+ }
+ #text2{
+  margin: 0px;
+  padding: 0px;
+  font-size:40px;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+
+  max-width: 100%;
+  text-align: center;
+ }
+ #text3{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  max-width: 100%;
+  text-align: center;
+ }
+.rightSide2{
+  max-width: 100%;
+}
+.leftSide2{
+  max-width: 200px;
+}
+
+.mainContainer3{
+  flex-direction: column;
+  }
+  .rightSide3{
+    order: 1;
+    max-width: 100%;
+  }
+  .leftSide3{
+    order: 2;
+    max-width: 100%;
+  }
+
 .navBar{
-  height: 3vh;
+  height: 10vh;
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
@@ -1336,7 +1417,8 @@ flex-direction: column;
 
 
 }
-   }
+
+
 
    
 
