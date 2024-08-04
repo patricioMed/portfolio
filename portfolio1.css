@@ -1321,7 +1321,7 @@ border: 3px solid rgb(47, 255, 134) ;
   margin: 0px;
   padding: 0px;
 /*   font-size:50px; */
-      font-size: 2vw;
+      font-size: 6vw;
   /* border: 2px solid gold; */
   display: flex;
   justify-content: center;
@@ -1333,7 +1333,7 @@ border: 3px solid rgb(47, 255, 134) ;
   margin: 0px;
   padding: 0px;
 /*   font-size:40px; */
-      font-size: 2vw;
+      font-size: 6vw;
   display: flex;
   justify-content: center;
   /* background-color: blue; */
