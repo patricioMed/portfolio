@@ -1296,7 +1296,7 @@ align-items: center;
 .image::before{
   content: ''; 
   position: absolute;
-  width: 120px;
+  width: 105px;
   height: 140%;
   background: linear-gradient(rgb(47, 255, 134),white);
   box-shadow: 0 0 250px rgb(47, 255, 134);
