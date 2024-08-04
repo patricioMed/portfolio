@@ -1282,7 +1282,7 @@ flex-direction: column;
   order: 1;
   max-width: 100%;
   min-height: 100px;
-  background-color: blue;
+  background-color: violet;
 }
 .image{
   margin: 0;
@@ -1320,7 +1320,8 @@ border: 3px solid rgb(47, 255, 134) ;
  #text1{
   margin: 0px;
   padding: 0px;
-  font-size:50px;
+/*   font-size:50px; */
+      font-size: 2vw;
   /* border: 2px solid gold; */
   display: flex;
   justify-content: center;
@@ -1331,7 +1332,8 @@ border: 3px solid rgb(47, 255, 134) ;
  #text2{
   margin: 0px;
   padding: 0px;
-  font-size:40px;
+/*   font-size:40px; */
+      font-size: 2vw;
   display: flex;
   justify-content: center;
   /* background-color: blue; */
