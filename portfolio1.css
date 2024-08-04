@@ -1282,7 +1282,7 @@ flex-direction: column;
   order: 1;
   max-width: 100%;
   min-height: 100px;
-  background-color: violet;
+  background-color: red;
 }
 .image{
   margin: 0;
@@ -1299,6 +1299,7 @@ flex-direction: column;
 #language{
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   left:1px;
 /* background-color: red; */
