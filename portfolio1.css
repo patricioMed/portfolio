@@ -1346,6 +1346,7 @@ border: 3px solid rgb(47, 255, 134) ;
   padding: 0px;
   display: flex;
   justify-content: center;
+     font-size: 6vw;
   /* background-color: blue; */
   max-width: 100%;
   text-align: center;
