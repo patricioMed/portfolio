@@ -1288,6 +1288,7 @@ align-items: center;
   min-height: 100px; */
     max-height: 200px;
     max-width: 200px;
+     background-color: green;
 }
 .image{
   margin: 0;
@@ -1494,6 +1495,41 @@ border: 3px solid rgb(47, 255, 134) ;
   padding-left: 0 ;
   /* padding-left: 1em ; */
 }
+
+.mainContainer2{
+  flex-direction: column;
+}
+
+.leftSide2{
+position: relative;
+order: 2;
+left: 5em;
+}
+
+.rightSide2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  order: 1;
+}
+
+.rightText{
+  margin: 1em;
+}
+
+.circle-container{
+  position: relative;
+  bottom: 1.5em;
+}
+
+
+
+
+
+
+
+      
 }
 
 
