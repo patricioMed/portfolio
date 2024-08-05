@@ -1272,7 +1272,7 @@ animation-range: cover;
 .portfolio{
   margin-left: 10px;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.2em;
     
 }
 .mainContainer1{
@@ -1288,7 +1288,7 @@ align-items: center;
   min-height: 100px; */
     max-height: 200px;
     max-width: 200px;
-    background-color: green; 
+    background-color: yellow; 
 }
 .image{
   margin: 0;
