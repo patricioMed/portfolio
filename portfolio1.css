@@ -1272,7 +1272,8 @@ animation-range: cover;
 .portfolio{
   margin-left: 10px;
   font-weight: bold;
-  font-size: 7px;
+  font-size: 1em;
+    
 }
 .mainContainer1{
 flex-direction: column;
