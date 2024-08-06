@@ -1524,6 +1524,93 @@ left: 5em;
 }
 
 
+.topText{
+  height: 5vh;
+}
+
+.leftSide3{
+  padding: 5px;
+}
+
+.skillLeft{
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+padding: 5px;
+border-radius: 10px;
+max-width: 23.5em;
+max-height: 50em;
+margin: 0;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.techPro{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.skillLeft .skillBar .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
+
+.skillLeft .skillBar .bar{
+  position: relative;
+  height: 15px;
+  background-color:rgb(87, 86, 86);
+  border-radius: 25px;
+  max-width: 20em;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+  
+
+  .proTech{
+      max-width: 11.6em;
+      max-height: 2em;
+      margin-top: 0.2em;
+      border-top:none ;
+
+        border-top:1px solid rgba(255, 255, 255, 0.2);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: none;
+
+  }
+    
+ .prfssnl{
+      max-width: 21.7em;
+      max-height: 40em;
+      margin-bottom: 0.4em;
+
+      border-top: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom:1px solid rgba(255, 255, 255, 0.2) ;
+    }
+    .container{
+      position: relative;
+      margin:1em;
+      flex: 1;
+    }
+    .container .innerText h5{
+      top: 44%;
+      left: 54%;
+    }
+    .probSol{
+      font-size: 17px;
+      padding: 1px;
+    }
 
 
 
