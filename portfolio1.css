@@ -1580,6 +1580,7 @@ margin: 0;
       max-height: 2em;
       margin-top: 0.2em;
       border-top:none ;
+      background-color: red;
 
         border-top:1px solid rgba(255, 255, 255, 0.2);
         border-right: 1px solid rgba(255, 255, 255, 0.2);
