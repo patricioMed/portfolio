@@ -690,7 +690,8 @@ overflow-x: hidden;
   #jobTitle{
     display: inline-block;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+        background-color: red;
   }
 
 /* .rightText span{
