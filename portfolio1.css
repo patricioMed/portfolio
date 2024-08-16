@@ -1622,9 +1622,16 @@ margin: 0;
       justify-content: center;
       align-items: center;
       flex: 1;
-      height: 100vh;
+      height: 70vh;
       background-color: black;
   }  
+  .leftSide4 .containerLeft {
+    transform: translateX(110%);
+    transition: 2s;
+  }
+  .leftSide4.show-animate .containerLeft {
+    transform: translateX(0);
+  }
   .containerLeft{
       background-color: black;
       border-radius: 15px;
@@ -1640,7 +1647,15 @@ margin: 0;
       margin: 0px;
       overflow: hidden;
      }
-  
+
+    .mainContainer4 .form-container {
+    transform: translateX(-120%);
+    transition: 2s;
+  }
+  .mainContainer4.show-animate .form-container {
+    transform: translateX(0);
+  }
+
   .rightSide4{
       display: flex;
       justify-content: center;
