@@ -1436,62 +1436,44 @@ border: 3px solid rgb(47, 255, 134) ;
   
   
 }
-.home{
-  font-size: 0.8em;
-  padding: 0px;
-  /* padding-left: 2em ; */
-}
-.home{
-  width: 1em;
-  /* background-color: red; */
-}
-.navs .class,.home:hover~.Animation{
-  /* border: none; */
-  width: 4.1em;
-  left: 0.01em;
 
-}
+  .contact {
+    font-size: 0.8em;
+  }
+  .navs .class,
+  .contact:hover ~ .Animation {
+    width: 82px;
+    left: 156px;
+  }
 
-.about{
-  font-size: 0.8em;
-}
-.about{
-  width: 1em;
-  /* background-color: blue; */
-}
-   
+  .skills {
+    font-size: 0.8em;
+  }
+  .navs .class,
+  .skills:hover ~ .Animation {
+    width: 54px;
+    left: 111px;
+  }
+  .about {
+    font-size: 0.8em;
+  }
+  .navs .class,
+  .about:hover ~ .Animation {
+    width: 59px;
+    left: 57px;
+  }
+
+  .home {
+    font-size: 0.8em;
+  }
+  .navs .class,
+  .home:hover ~ .Animation {
+    width: 65px;
+    left: 0;
+  }     
+
+
       
-.navs .class,.about:hover~.Animation{
-  /* border: none; */
-  width: 3.7em;
-  left: 3.9em;
-}
-
-.skills{
-  font-size: 0.8em;
-}
-.skills{
-  width: 0;
-  /* background-color: green; */
-}
-.navs .class,.skills:hover~.Animation{
-  /* border: none; */
-  width: 3.2em;
-  left: 7.3em;
-}
-
-.contact{
-  font-size: 0.8em;
-}
-.contact{
-  /* background-color: orangered; */
-  width: 1em;
-}
-.navs .class,.contact:hover~.Animation{
-  /* border: none; */
-  width: 4.8em;
-  left: 10.1em;
-}
 .navs .about{
   text-align: center;
 }
@@ -1500,7 +1482,6 @@ border: 3px solid rgb(47, 255, 134) ;
 }
 .navs .home{
   padding-left: 0 ;
-  /* padding-left: 1em ; */
 }
 
 .mainContainer2{
