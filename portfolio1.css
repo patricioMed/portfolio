@@ -691,7 +691,6 @@ overflow-x: hidden;
     display: inline-block;
     font-size: 25px;
     margin-bottom: 25px;
-        background-color: red;
   }
 
 /* .rightText span{
@@ -1387,6 +1386,12 @@ border: 3px solid rgb(47, 255, 134) ;
   max-width: 100%;
   text-align: center;
  }
+#jobTitle{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 15px;
+    background-color: blue;
+  }
 .rightSide2{
   max-width: 100%;
 }
@@ -1455,6 +1460,8 @@ border: 3px solid rgb(47, 255, 134) ;
   width: 1em;
   /* background-color: blue; */
 }
+   
+      
 .navs .class,.about:hover~.Animation{
   /* border: none; */
   width: 3.7em;
